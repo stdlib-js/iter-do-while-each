@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-do-while-each",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create an iterator which, while a test condition is true, invokes a function for each iterated value before returning the iterated value.",
   "license": "Apache-2.0",
   "author": {
