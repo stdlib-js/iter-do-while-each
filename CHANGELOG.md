@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.1">
 
-## Unreleased (2024-07-07)
+## 0.1.1 (2024-07-27)
 
 <section class="commits">
 
@@ -57,7 +57,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
--   [`d40dbaf`](https://github.com/stdlib-js/stdlib/commit/d40dbafc25e3e10c8fa83f5b4203db97c289823c) - **chore:** update package meta data [(##1812)](#1812) _(by stdlib-bot)_
+-   [`d40dbaf`](https://github.com/stdlib-js/stdlib/commit/d40dbafc25e3e10c8fa83f5b4203db97c289823c) - **chore:** update package meta data [(#1812)](https://github.com/stdlib-js/stdlib/pull/1812) _(by stdlib-bot)_
 -   [`3fabd41`](https://github.com/stdlib-js/stdlib/commit/3fabd410f3fdf4e2fc4302cef5db992049949927) - **feat:** add `iter/do-while-each` _(by Praneki, Philipp Burckhardt)_
 
 </details>
