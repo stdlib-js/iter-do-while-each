@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@esm/index.mjs';
+import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@v0.1.1-esm/index.mjs';
 ```
 
 #### iterDoWhileEach( iterator, predicate, fcn\[, thisArg] )
@@ -60,7 +60,7 @@ import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while
 Returns an iterator which invokes a function for each iterated value before returning the iterated value until either a predicate function returns false or the iterator has iterated over all values. The condition is evaluated after executing the provided function (fcn).
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@esm/index.mjs';
+import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@v0.1.1-esm/index.mjs';
 import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
 
 function predicate( v ) {
@@ -99,7 +99,7 @@ Both the `predicate` function and the function to invoke for each iterated value
 -   **index**: iteration index (zero-based)
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@esm/index.mjs';
+import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@v0.1.1-esm/index.mjs';
 import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
 
 function predicate( v ) {
@@ -131,7 +131,7 @@ To set the execution context for `fcn`, provide a `thisArg`.
 <!-- eslint-disable no-invalid-this -->
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@esm/index.mjs';
+import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@v0.1.1-esm/index.mjs';
 import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
 
 function assert( v ) {
@@ -198,7 +198,7 @@ var count = ctx.count;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
 import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs';
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@esm/index.mjs';
+import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@v0.1.1-esm/index.mjs';
 
 function assert( v ) {
     if ( isnan( v ) ) {
