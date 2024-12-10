@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/iter-do-while-each
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@deno/mod.js';
+var iterDoWhileEach = require( '@stdlib/iter-do-while-each' );
 ```
 
 #### iterDoWhileEach( iterator, predicate, fcn\[, thisArg] )
@@ -60,8 +78,8 @@ import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while
 Returns an iterator which invokes a function for each iterated value before returning the iterated value until either a predicate function returns false or the iterator has iterated over all values. The condition is evaluated after executing the provided function (fcn).
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@deno/mod.js';
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+var iterDoWhileEach = require( '@stdlib/iter-do-while-each' );
+var array2iterator = require( '@stdlib/array-to-iterator' );
 
 function predicate( v ) {
     return v < 3;
@@ -99,8 +117,8 @@ Both the `predicate` function and the function to invoke for each iterated value
 -   **index**: iteration index (zero-based)
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@deno/mod.js';
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+var iterDoWhileEach = require( '@stdlib/iter-do-while-each' );
+var array2iterator = require( '@stdlib/array-to-iterator' );
 
 function predicate( v ) {
     return v < 3;
@@ -131,8 +149,8 @@ To set the execution context for `fcn`, provide a `thisArg`.
 <!-- eslint-disable no-invalid-this -->
 
 ```javascript
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@deno/mod.js';
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+var iterDoWhileEach = require( '@stdlib/iter-do-while-each' );
+var array2iterator = require( '@stdlib/array-to-iterator' );
 
 function assert( v ) {
     this.count += 1;
@@ -191,9 +209,9 @@ var count = ctx.count;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
-import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@deno/mod.js';
-import iterDoWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-do-while-each@deno/mod.js';
+var randu = require( '@stdlib/random-iter-randu' );
+var isnan = require( '@stdlib/math-base-assert-is-nan' );
+var iterDoWhileEach = require( '@stdlib/iter-do-while-each' );
 
 function assert( v ) {
     if ( isnan( v ) ) {
@@ -241,6 +259,14 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/iter-do-until-each`][@stdlib/iter/do-until-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is false, invokes a function for each iterated value before returning the iterated value.</span>
+-   <span class="package-name">[`@stdlib/iter-until-each`][@stdlib/iter/until-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is false, invokes a function for each iterated value before returning the iterated value.</span>
+-   <span class="package-name">[`@stdlib/iter-while-each`][@stdlib/iter/while-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is true, invokes a function for each iterated value before returning the iterated value.</span>
+
 </section>
 
 <!-- /.related -->
@@ -254,7 +280,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -316,6 +342,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/iter-do-while-each/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/iter-do-while-each/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/iter/do-until-each]: https://github.com/stdlib-js/iter-do-until-each
+
+[@stdlib/iter/until-each]: https://github.com/stdlib-js/iter-until-each
+
+[@stdlib/iter/while-each]: https://github.com/stdlib-js/iter-while-each
+
+<!-- </related-links> -->
 
 </section>
 
