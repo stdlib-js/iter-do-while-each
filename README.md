@@ -259,6 +259,14 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/iter-do-until-each`][@stdlib/iter/do-until-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is false, invokes a function for each iterated value before returning the iterated value.</span>
+-   <span class="package-name">[`@stdlib/iter-until-each`][@stdlib/iter/until-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is false, invokes a function for each iterated value before returning the iterated value.</span>
+-   <span class="package-name">[`@stdlib/iter-while-each`][@stdlib/iter/while-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is true, invokes a function for each iterated value before returning the iterated value.</span>
+
 </section>
 
 <!-- /.related -->
@@ -334,6 +342,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/iter-do-while-each/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/iter-do-while-each/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/iter/do-until-each]: https://github.com/stdlib-js/iter-do-until-each
+
+[@stdlib/iter/until-each]: https://github.com/stdlib-js/iter-until-each
+
+[@stdlib/iter/while-each]: https://github.com/stdlib-js/iter-while-each
+
+<!-- </related-links> -->
 
 </section>
 
