@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-10)
+## Unreleased (2025-05-26)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
 -   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 
@@ -93,7 +94,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 <details>
 
 -   [`d40dbaf`](https://github.com/stdlib-js/stdlib/commit/d40dbafc25e3e10c8fa83f5b4203db97c289823c) - **chore:** update package meta data [(#1812)](https://github.com/stdlib-js/stdlib/pull/1812) _(by stdlib-bot)_
--   [`3fabd41`](https://github.com/stdlib-js/stdlib/commit/3fabd410f3fdf4e2fc4302cef5db992049949927) - **feat:** add `iter/do-while-each` _(by Praneki, Philipp Burckhardt)_
+-   [`3fabd41`](https://github.com/stdlib-js/stdlib/commit/3fabd410f3fdf4e2fc4302cef5db992049949927) - **feat:** add `iter/do-while-each` _(by Pranjal Jha, Philipp Burckhardt)_
 
 </details>
 
@@ -108,7 +109,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
--   Praneki
+-   Pranjal Jha
 
 </section>
 
